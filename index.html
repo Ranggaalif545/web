@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .photo {
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+        .photo img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            flex-grow: 1;
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="your-photo.jpg" alt="Foto Profil">
+        </div>
+        <div class="info">
+            <h1>Data Diri</h1>
+            <p><strong>Nama:</strong> [Nama Anda]</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> [Tempat, Tanggal Lahir]</p>
+            <p><strong>Alamat:</strong> [Alamat Lengkap]</p>
+            <p><strong>Pendidikan Terakhir:</strong> SMK, Jurusan Teknik Komputer</p>
+            <p><strong>Keahlian:</strong></p>
+            <ul>
+                <li>Perbaikan hardware komputer</li>
+                <li>Instalasi software dan jaringan</li>
+                <li>Troubleshooting perangkat IT</li>
+                <li>Pengoperasian aplikasi Microsoft Office</li>
+            </ul>
+            <p><strong>Kontak:</strong> [Telepon/WA], [Email]</p>
+        </div>
+    </div>
+</body>
+</html>
